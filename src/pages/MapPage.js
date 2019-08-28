@@ -2,10 +2,14 @@ import React, { Component } from 'react'
 import Map from '../Map'
 import {Link} from 'react-router-dom'
 
+
 export default function MapPage() {
     return (
         <div className="container">
-            <Link to="/">Home</Link>
+            <h1> Map Page</h1>
+            <p>
+            <Link to="/">About Me</Link>
+            </p>
             <br></br>
             <Map />
 

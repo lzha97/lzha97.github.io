@@ -31,3 +31,20 @@
     transform: rotate(360deg);
   }
 }
+
+p {
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: #000000;
+}
+
+a {
+  color: #000000;
+}
+
+h1 {
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.container {
+  padding: 50px;
+}
