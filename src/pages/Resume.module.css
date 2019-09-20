@@ -1,0 +1,24 @@
+
+.work_section{
+    padding:20px;
+}
+
+.work_section:hover {
+    padding: 20px;
+    background-image: linear-gradient(to right, #fbffda , #caffdb, #a5f0ff);
+    border-radius: 10px;
+}
+.edu_section{
+    padding:20px;
+}
+
+.edu_section:hover {
+    padding: 20px;
+    background-image: linear-gradient(to left, #fdebff , #f9ffca, #ffeac1);
+    border-radius: 10px;
+}
+
+h2{
+    padding:0;
+    margin:0;
+}

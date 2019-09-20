@@ -10,7 +10,15 @@ export default function HomePage(){
             <Header></Header>
             <div style = {{display: 'flex'}}>
                 <img className="profile-pic" src={my_photo}></img>
-                <p style = {{padding: 100}}>Hi, I'm Lillian. Currently a undergraduate senior at Columbia's school of engineering. I enjoy travelling, art and reading.</p>
+                <p style = {{padding: "15% 0px 15% 50px", height:400}}>
+                    Hi, I'm Lillian. 
+                    <br></br> 
+                    Currently an undergraduate senior at Columbia's school of engineering.
+                    <br></br>
+                    I am majoring in Computer Science
+                    <br></br> 
+                    I enjoy travelling, jigsaw puzzles, Japanese novels, and cooking. 
+                    </p>
             </div>
             
         </div>

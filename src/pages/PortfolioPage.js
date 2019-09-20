@@ -1,7 +1,4 @@
 import React, {Component} from 'react'
-//import image_data from '../assets/images'
-//import image1 from '../assets/1.jpeg'
-//import image2 from '../assets/2.jpeg'
 import Header from '../Header'
 
 function importAll(r) {
@@ -48,7 +45,7 @@ class PortfolioPage extends Component {
             <div className="container" style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center'}}>
 
                 <Header></Header>
-                
+                <p style={{fontFamily: 'Open Sans Condensed'}}> For more work go <a href="https://lillianzha.wixsite.com/artportfolio"> here</a></p>
                 <img style={{ width:600, verticalAlign:'middle'}} src = {images[this.state.currentImage]}></img>
                 
             </div>
