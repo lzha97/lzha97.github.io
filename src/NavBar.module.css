@@ -1,0 +1,17 @@
+.menu_opt {
+    border: 1px;
+    text-decoration: none;
+    width: 50px;
+    height: 40px;
+    
+}
+
+.menu_opt:hover {
+    background-color: #6785;
+    border-radius: 20px;
+}
+
+.menu_opt:active {
+    background-color: #6785;
+    border-radius: 20px;
+}

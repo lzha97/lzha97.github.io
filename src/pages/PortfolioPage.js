@@ -1,10 +1,8 @@
 import React, {Component} from 'react'
-import NavBar from '../NavBar'
 //import image_data from '../assets/images'
 //import image1 from '../assets/1.jpeg'
 //import image2 from '../assets/2.jpeg'
-
-
+import Header from '../Header'
 
 function importAll(r) {
     return r.keys().map(r);
@@ -47,10 +45,11 @@ class PortfolioPage extends Component {
 
     render(){
         return (
-            <div className="container">
-                <h1> My Art Portfolio</h1>
-                <NavBar></NavBar>
-                <img style={{ width: 600}} src = {images[this.state.currentImage]}></img>
+            <div className="container" style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center'}}>
+
+                <Header></Header>
+                
+                <img style={{ width:600, verticalAlign:'middle'}} src = {images[this.state.currentImage]}></img>
                 
             </div>
         );

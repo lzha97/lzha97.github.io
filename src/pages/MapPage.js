@@ -1,17 +1,16 @@
 import React, { Component } from 'react'
 import Map from '../Map'
 import {Link} from 'react-router-dom'
-import NavBar from '../NavBar'
+import Header from '../Header'
 
 
 export default function MapPage() {
     return (
         <div className="container">
-            <h1> Map Page</h1>
-            <NavBar></NavBar>
-            <div>
+            <Header></Header>
+            
             <Map />
-            </div>
+            
 
         </div>
     )
