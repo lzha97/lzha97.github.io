@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import Header from '../Header'
+import MediaQuery from 'react-responsive'
 
 function importAll(r) {
     return r.keys().map(r);
@@ -41,12 +42,21 @@ class PortfolioPage extends Component {
     }
 
     render(){
+        
         return (
             <div className="container" style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center'}}>
 
                 <Header></Header>
                 <p style={{fontFamily: 'Open Sans Condensed'}}> For more work go <a href="https://lillianzha.wixsite.com/artportfolio"> here</a></p>
+                
+                <MediaQuery minDeviceWidth={700}>
                 <img style={{ width:600, verticalAlign:'middle'}} src = {images[this.state.currentImage]}></img>
+      </MediaQuery>
+
+      <MediaQuery maxDeviceWidth={700}>
+                <img style={{ width:300, verticalAlign:'middle'}} src = {images[this.state.currentImage]}></img>
+      </MediaQuery>
+                
                 
             </div>
         );

@@ -6,7 +6,7 @@ export default class NavBar extends Component {
     render(){
         return (
 
-        <div style={{display:'flex', justifyContent:"space-between", width:'100%'}}>
+        <div className = {styles.nav}>
             <p>
                 <Link to="/" className={styles.menu_opt}>About Me</Link>
             </p> 

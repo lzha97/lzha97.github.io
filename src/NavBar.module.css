@@ -1,9 +1,17 @@
+@media (min-width: 900px){
+   .nav {
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+    }
+ 
+}
+
 .menu_opt {
     border: 1px;
     text-decoration: none;
     width: 50px;
-    height: 40px;
-    
+    height: 40px;   
 }
 
 .menu_opt:hover {
@@ -15,3 +23,20 @@
     background-color: #6785;
     border-radius: 20px;
 }
+
+
+@media screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {
+    .nav {
+        justify-content:center;
+        width:100%;
+    }
+
+    .p {
+        display:flex;
+        justify-content: center;
+    }
+}
+

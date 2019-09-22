@@ -46,6 +46,25 @@ function WorkExp(props){
         <Entry name="Azimo" date="2018 Jun-Aug"></Entry>
     </div>
 }
+
+function Skills(props){
+
+    const skills = ['HTML', 'CSS', 'Python', 'SQL', 'Java', 'Mandarin', 'Linux', 'Microsoft Office', 'Research']
+    return <div>
+    <h2>Skills</h2>
+    <LabelGroup labels = {skills}></LabelGroup>
+    </div>
+}
+function LabelGroup(props){
+    var labelArray = props.labels;
+    return (
+            labelArray.map(function(name, index){
+            return <p key={index}>{name}</p>
+            }
+        )
+        
+    )
+}
     
 
 export default ResumePage
